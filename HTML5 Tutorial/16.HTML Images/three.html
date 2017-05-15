@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Width and Height, or Style?</title>
+    <style>
+        img {
+            width: 100%;
+        }
+
+        .two {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+<!--直接宽高可能会拉伸图片，所以 应设置样式-->
+<img src="dog.png" width="400" height="400">
+<img src="dog.png" class="two">
+
+</body>
+</html>
