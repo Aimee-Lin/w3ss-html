@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table - Cells that Span Many Columns</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 5px;
+            text-align: left;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<!--colspan 属性可以设置跨越多个列-->
+<table>
+    <tr>
+        <th>id</th>
+        <th colspan="2">name</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>lisa</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>json</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Aimee</td>
+        <td>21</td>
+    </tr>
+</table>
+</body>
+</html>
