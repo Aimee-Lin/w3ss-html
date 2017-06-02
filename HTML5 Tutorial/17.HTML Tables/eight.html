@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table - Cells that Span Many Rows</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<!--使用RowSpan属性,可以跨多个行-->
+<table>
+    <tr>
+        <th>id</th>
+        <td>1</td>
+        <td>lisa</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <th rowspan="2">name</th>
+        <td>2</td>
+        <td>json</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Aimee</td>
+        <td>21</td>
+    </tr>
+</table>
+</body>
+</html>
